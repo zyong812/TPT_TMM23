@@ -1,0 +1,10 @@
+dataset: vidhoi
+num_classes: 78
+num_relations: 50
+train_split: train
+val_split: validation
+#train_split: train_v30
+#val_split: validation_v10
+
+# train from COCO pre-trained
+resume: models/pretrained/r50_deformable_detr-checkpoint.pth

@@ -1,0 +1,5 @@
+track_query_propagation_strategy: consistent_pairing
+clip_length: 2
+token_propagation_sample_rate: 0
+track_query_false_negative_prob: 0
+output_dir: models/consistent_pairing

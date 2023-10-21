@@ -1,0 +1,12 @@
+resume: xxx # fine-tuned DETR on customized dataset
+batch_size: 1
+
+tracking_token_propagation: False
+hoi_detection: True
+freeze_detr: True
+
+lr: 0.00001
+lr_backbone: 0.000001
+lr_drop: 4
+epochs: 7
+save_model_interval: 1

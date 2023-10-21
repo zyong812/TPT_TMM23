@@ -1,0 +1,25 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="STTran_train" type="PythonConfigurationType" factoryName="Python" folderName="STTran" singleton="false">
+    <module name="VideoSG-on-trackformer" />
+    <option name="INTERPRETER_OPTIONS" value="" />
+    <option name="PARENT_ENVS" value="true" />
+    <envs>
+      <env name="PYTHONUNBUFFERED" value="1" />
+      <env name="CUDA_VISIBLE_DEVICES" value="0" />
+    </envs>
+    <option name="SDK_HOME" value="C:\Users\Yong\anaconda3\envs\py37\python.exe" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <option name="IS_MODULE_SDK" value="false" />
+    <option name="ADD_CONTENT_ROOTS" value="true" />
+    <option name="ADD_SOURCE_ROOTS" value="false" />
+    <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+    <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/train_sttran.py" />
+    <option name="PARAMETERS" value="with vidhoi sttran train_split=train_v30 val_split=validation_v10 resume=&quot;models/pretrained_models/vidhoi==sttran_sgdet_8a31e0b==checkpoint_epoch4.pth&quot; num_workers=0 eval_only=True" />
+    <option name="SHOW_COMMAND_LINE" value="false" />
+    <option name="EMULATE_TERMINAL" value="false" />
+    <option name="MODULE_MODE" value="false" />
+    <option name="REDIRECT_INPUT" value="false" />
+    <option name="INPUT_FILE" value="" />
+    <method v="2" />
+  </configuration>
+</component>

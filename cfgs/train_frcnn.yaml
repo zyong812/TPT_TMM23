@@ -1,0 +1,8 @@
+object_detector: 'frcnn'
+batch_size: 2
+
+lr: 0.001
+weight_decay: 0.0005
+
+epochs: 10
+lr_drop: 7

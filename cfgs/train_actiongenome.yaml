@@ -1,0 +1,12 @@
+dataset: actiongenome
+train_split: train
+val_split: test
+num_classes: 36
+#train_split: train_v1000
+#val_split: test_v200
+
+# train from COCO pre-trained
+resume: models/pretrained/r50_deformable_detr-checkpoint.pth
+lr: 0.00001
+lr_backbone: 0.000001
+lr_drop: 20

@@ -1,0 +1,20 @@
+resume: xxx # fine-tuned DETR or pretrained tracker on customized dataset
+
+tracking_eval: false
+video_sgg_eval: true
+video_sgg_train: true
+track_query_propagation_strategy: consistent_pairing
+#track_query_false_positive_eos_weight: false
+token_propagation_sample_rate: 0
+
+clip_length: 3
+lr: 0.00001
+lr_backbone: 0.000001
+lr_drop: 4
+epochs: 7
+save_model_interval: 1
+
+## for stage2 training
+#hoi_detection: True
+#freeze_detr: True
+#hoi_use_temporal_dynamics: True
